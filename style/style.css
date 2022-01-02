@@ -106,7 +106,7 @@ body {
 }
 
 .highlight:hover {
-    -webkit-transform:rotate(10deg);
+    -webkit-transform:rotate(8deg);
     filter: drop-shadow(-7px -2px 27px rgba(190, 0, 255, 1));
     z-index: 1;
 }
@@ -296,7 +296,7 @@ width:94vw;
 
 @keyframes marquee {
     0%   { text-indent: -80em }
-    100% { text-indent: 155em }
+    100% { text-indent: 166em }
 }
 
 @keyframes marquee2 {
