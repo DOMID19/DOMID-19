@@ -33,7 +33,7 @@ body {
 
 .top--banner {
   width: 100vw;
-  position: absolute;
+  position: fixed;
   top:0;
   background: #000;
   color:#fff;
