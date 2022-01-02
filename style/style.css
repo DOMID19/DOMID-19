@@ -296,7 +296,7 @@ width:94vw;
 
 @keyframes marquee {
     0%   { text-indent: -80em }
-    100% { text-indent: 180em }
+    100% { text-indent: 200em }
 }
 
 @keyframes marquee2 {
