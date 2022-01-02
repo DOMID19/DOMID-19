@@ -151,7 +151,7 @@ background: #f8df00;
    font-weight: 400;
    color: black;
    letter-spacing: -4px;
-  animation: marquee4 30s linear infinite;
+  animation: marquee4 20s linear infinite;
 
 }
 
@@ -305,7 +305,7 @@ width:94vw;
 }
 
 @keyframes marquee3 {
-    0%   { text-indent: 0em }
+    0%   { text-indent: -5em }
     100% { text-indent: 10em }
 }
 
