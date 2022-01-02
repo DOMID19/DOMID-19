@@ -140,7 +140,7 @@ background: #f8df00;
    font-weight: 400;
    color: black;
    letter-spacing: -4px;
-   animation: marquee3 15s linear infinite;
+   animation: marquee3 25s linear infinite;
 }
 
 .marquee-4 {
