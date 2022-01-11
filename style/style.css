@@ -91,23 +91,23 @@ body {
   top: 0;
   z-index: 1;
   transition: 2s;
-  animation: hid 3s linear 1 alternate forwards;
+  animation: hid 1.5s linear 1 alternate forwards;
 
 }
 
 
 .land-layer.layer1 {
-  animation-delay:  .5s;
+  animation-delay:  .2s;
 
 }
 
 .land-layer.layer2 {
-  animation-delay:  1s;
+  animation-delay:  .8s;
 
 }
 
 .land-layer.layer3 {
-  animation-delay:  3s;
+  animation-delay:  1.5s;
 
 }
 
