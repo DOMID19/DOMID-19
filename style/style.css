@@ -129,11 +129,9 @@ body {
   width: 40%;
   height: auto;
   border-radius: 6px;
-  transition: .5s ease-in-out;
-  filter: drop-shadow(0px 0px 23px rgba(0, 0, 0, 0.4));
+  transition: .7s ease-in-out;
+  filter: drop-shadow(0px 0px 23px rgba(0, 0, 0, 0.64) brightness(1.3);
   z-index: 0;
-  filter: brightness(1.3);
-
 }
 
 @media screen and (max-width:678px) {
@@ -142,8 +140,6 @@ body {
     padding: 10px;
     width: 95%;
     height: auto;
-    filter: brightness(1.3);
-
 }
  .land {padding-top:200px;}
  .land-layer {
@@ -158,10 +154,8 @@ body {
 
 .highlight:hover {
     -webkit-transform:rotate(8deg);
-    filter: drop-shadow(-7px -2px 27px rgba(190, 0, 255, 1));
+    filter: drop-shadow(0px 0px 23px rgba(0, 0, 0, 0.64) brightness(1.3);
     z-index: 1;
-    filter: brightness(1.3);
-
 }
 
 .marquee-2{
