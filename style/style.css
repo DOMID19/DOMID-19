@@ -314,6 +314,7 @@ width:94vw;
     position: fixed;
     bottom:0;
     font-size: 2.2em;
+     z-index: 100;
 }
 
 .footer-container{
@@ -321,6 +322,7 @@ width:94vw;
   justify-content: space-between;
   padding: .8em .6em;
  background: linear-gradient(rgba(255,255,255,0),#cfcfcf,#cfcfcf);
+ z-index: 100;
 }
 
 .marquee {
@@ -353,7 +355,7 @@ width:94vw;
 }
 
 @keyframes marquee3 {
-    0%   { text-indent: -26em }
+    0%   { text-indent: -48em }
     100% { text-indent: 26em }
 }
 
