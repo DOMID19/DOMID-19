@@ -308,6 +308,7 @@ width:94vw;
 .collection-text {
   font-size: 2.2em;
   font-family: 'TeX Gyre Heros Condensed',sans-serif, Icons;
+  min-height: 4em;
 
 }
 
@@ -448,4 +449,21 @@ s {
 
 img {
   border-radius: 6px;
+}
+
+
+.buy-btn {
+    font-family: "Alte Haas Grotesk", Icons;
+    letter-spacing: -1px;
+    font-size: 2.2em;
+    line-height: 2.5em;
+    border-radius: 6px;
+    border: solid black 2px;
+    padding: 0.4em 0.9em;
+    background: #f8df00;
+    transition: .5s;
+}
+
+.buy-btn:hover{
+  background: rgba(255, 51, 232, 1);
 }
