@@ -93,6 +93,7 @@ body {
   z-index: 1;
   transition: 2s;
   animation: hid 1s linear 1 alternate forwards;
+  overflow: hidden;
 
 }
 
@@ -149,6 +150,7 @@ body {
    top: 0;
    left: -50%
    z-index: 1;
+   overflow: hidden;
  }
 
 }
