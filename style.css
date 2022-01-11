@@ -1,0 +1,454 @@
+
+@font-face {
+    font-family: 'GlyphWorld-Forest';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://files.cargocollective.com/c1091761/GlyphWorld-Forest.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'TeX Gyre Heros Condensed';
+    font-weight: 200;
+    line-height: 1em;
+    font-style: normal;
+    src: url('https://files.cargocollective.com/c1153557/texgyreheroscn-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Alte Haas Grotesk';
+    font-weight: 400;
+    line-height: 1em;
+    font-style: normal;
+    src: url('https://files.cargocollective.com/c1153557/AlteHaasGroteskRegular.woff') format('woff');
+}
+
+
+body {
+  background-color: #cfcfcf;
+  padding: 0;
+  margin: 0;
+  font-size: 8px;
+}
+
+.top--banner {
+  width: 100vw;
+  position: fixed;
+  top:0;
+  background: #000;
+  color:#fff;
+  font-size: 1em;
+  margin-top:-5px;
+  line-height: .8em;
+  padding: 0;
+  z-index: 10;
+
+}
+
+.navbar {
+  width: 100vw;
+  position: fixed;
+  top:2em;
+  display: block;
+  font-size: 2.2em;
+  z-index: 10;
+  letter-spacing: -.5px;
+  font-family: 'TeX Gyre Heros Condensed',sans-serif, Icons;
+
+}
+
+.navbar--container{
+  display: flex;
+  justify-content: space-between;
+  padding: .4em .8em 2em;
+ background: linear-gradient(#cfcfcf,#cfcfcf,rgba(255,255,255,0));
+}
+
+.btn {
+    border:solid 2px rgba(0, 0, 0, 0.83);
+    border-radius: 30px;
+    padding: 0px 1em 0 1em;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    border:solid 2px #000;
+    border-radius: 2px;
+    padding: 0px 1em 0 1em;
+}
+
+
+.land {
+  padding-top:100px;
+  height: 90vh;
+  width: 100vw;
+}
+
+.land-layer {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  transition: 2s;
+  animation: hid 1s linear 1 alternate forwards;
+
+}
+
+
+.land-layer.layer1 {
+  animation-delay:  .2s;
+
+}
+
+.land-layer.layer2 {
+  animation-delay:  .6s;
+
+}
+
+.land-layer.layer3 {
+  animation-delay:  1s;
+
+}
+
+
+
+
+@keyframes hid {
+    0%   { opacity: 100% }
+    100% { opacity: 0%; visibility: hidden}
+}
+
+
+
+
+
+.highlight {
+  margin: 0 auto;
+  padding: 10em 30% 0 30%;
+  width: 40%;
+  height: auto;
+  border-radius: 6px;
+  transition: .5s ease-in-out;
+  filter: drop-shadow(0px 0px 23px rgba(0, 0, 0, 0.4));
+  z-index: 0;
+  filter: brightness(1.3);
+
+}
+
+@media screen and (max-width:678px) {
+  .highlight {
+    margin: 10px auto;
+    padding: 10px;
+    width: 95%;
+    height: auto;
+    filter: brightness(1.3);
+
+}
+ .land {padding-top:200px;}
+ .land-layer {
+   height: 100vh;
+   width: unset;
+   top: 0;
+   left: -50%
+   z-index: 1;
+ }
+
+}
+
+.highlight:hover {
+    -webkit-transform:rotate(8deg);
+    filter: drop-shadow(-7px -2px 27px rgba(190, 0, 255, 1));
+    z-index: 1;
+    filter: brightness(1.3);
+
+}
+
+.marquee-2{
+  font-family: 'GlyphWorld-Forest',fantasy, sans-serif;
+  font-size: 22em;
+  line-height: 1.6em;
+  color: rgba(255, 255, 255, 0.89);
+  filter: drop-shadow(1px 0px 10px #ffe1c4);
+  animation: marquee2 40s linear infinite;
+}
+
+.about--marquee{
+background: #b600f8;
+  margin: 0;
+  padding: 1em 0;
+}
+
+.collection--marquee{
+background: #f8df00;
+  margin: 0;
+  padding: 1em 0;
+}
+
+.marquee-3 {
+  margin:0;
+  font-size: 9em;
+  font-family: "Alte Haas Grotesk", Icons;
+   font-style: normal;
+   font-weight: 400;
+   color: black;
+   letter-spacing: -4px;
+   animation: marquee3 25s linear infinite;
+}
+
+.marquee-4 {
+  margin:0;
+  font-size: 9em;
+  font-family: "Alte Haas Grotesk", Icons;
+   font-style: normal;
+   font-weight: 400;
+   color: black;
+   letter-spacing: -4px;
+  animation: marquee4 20s linear infinite;
+
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  grid-gap: 2em;
+  padding: 8em 2em;
+  margin-bottom: 20rem;
+}
+
+@media screen and (max-width:678px) {
+  .about-container {
+  flex-direction: column;
+  margin-bottom: 6rem;
+  grid-gap: 4em;
+}
+
+}
+
+.about-1 {
+  font-size: 2.4em;
+  font-family: 'TeX Gyre Heros Condensed',sans-serif, Icons;
+  margin: 0;
+  letter-spacing: -.5px;
+}
+
+.about-2 {
+  font-family: "Alte Haas Grotesk", Icons;
+  letter-spacing: -3px;
+  font-size: 6em;
+  line-height: 1em;
+  margin: 0;
+}
+
+.btn-2 {
+  font-family: 'Alte Haas Grotesk';
+	  border:solid 2px rgba(0, 0, 0, 0.83);
+    border-radius: 80px;
+    padding: .5em ;
+    font-size: 5em;
+    text-align:center;
+    transition: .3s ease;
+    background: rgba(255, 51, 232, 1);
+
+}
+
+.btn-2:hover{
+    border:solid 2px #000;
+    border-radius: 6px;
+}
+
+.about-img {
+ width: 32vw;
+ height: auto;
+}
+
+@media screen and (max-width:678px) {
+  .about-img {
+   width: 100%;
+   height: auto;
+} }
+
+
+.invert {
+  transition:.5s;
+}
+
+.invert:hover {
+  filter: invert(100%);
+}
+
+.collection--marquee {
+  margin-bottom:60px;
+}
+
+.collection {
+  margin-bottom:100px;
+}
+
+.collection-container {
+  display: flex;
+  align-items: flex-start;
+  grid-gap: 1.8em;
+  padding: 2em;
+}
+
+.collection-img {
+  width: 32vw;
+}
+
+
+@media screen and (max-width:678px) {
+  .collection-container {
+flex-direction: column;
+width:94vw;
+}
+.collection-img {
+  width: 100%;
+}
+ }
+
+
+.collection-text {
+  font-size: 2.2em;
+  font-family: 'TeX Gyre Heros Condensed',sans-serif, Icons;
+
+}
+
+.footer--bottom {
+    width: 100vw;
+    font-family: 'TeX Gyre Heros Condensed',sans-serif, Icons;
+    position: fixed;
+    bottom:0;
+    font-size: 2.2em;
+     z-index: 100;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  padding: .8em .6em;
+ background: linear-gradient(rgba(255,255,255,0),#cfcfcf,#cfcfcf);
+ z-index: 100;
+}
+
+.marquee {
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+
+.marquee-1 {
+   animation: marquee 30s linear infinite;
+}
+
+
+.marquee-1:hover {
+    animation-play-state: paused
+}
+
+
+@keyframes marquee {
+    0%   { text-indent: -80em }
+    100% { text-indent: 260em }
+}
+
+@keyframes marquee2 {
+    0%   { text-indent: -17em}
+    100% { text-indent: 10em }
+}
+
+@keyframes marquee3 {
+    0%   { text-indent: -48em }
+    100% { text-indent: 26em }
+}
+
+
+@keyframes marquee4 {
+    0%   { text-indent: 0em }
+    100% { text-indent: -10em }
+}
+
+.badge {
+  font-family: "Alte Haas Grotesk", Icons;
+  letter-spacing: -1px;
+  font-size: 2.2em;
+  line-height: 1em;
+  margin:  10px;
+  border-radius: 40px;
+  border: solid black 2px;
+  padding: .4em .9em;
+  display: inline-block;
+  position: absolute;
+  background: rgba(255, 51, 232, 1);
+  z-index: 1;
+  transition: .5s;
+}
+
+.badge:hover{
+  -webkit-transform:rotate(-8deg);
+}
+
+.indent.about-2{
+      text-indent: 6rem;
+}
+
+.indent.about-1{
+      text-indent: 4rem;
+}
+
+@media screen and (max-width:678px) {
+  .about-2 {
+text-align: center;
+margin-top:30px;
+}
+.indent.about-2{
+      text-indent: unset !important;
+}
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+font-family: 'TeX Gyre Heros Condensed';
+font-size: 1.8em;
+line-height: 1em;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+sub,
+sup {
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  top: 0.3em;
+}
+
+sup {
+  top: -0.4em;
+}
+
+s {
+  text-decoration: line-through;
+}
+
+img {
+  border-radius: 6px;
+}
