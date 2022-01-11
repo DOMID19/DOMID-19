@@ -130,7 +130,7 @@ body {
   height: auto;
   border-radius: 6px;
   transition: .7s ease-in-out;
-  filter: drop-shadow(0px 0px 23px rgba(0, 0, 0, 0.64);
+  filter: drop-shadow(0px 0px 23px rgba(0, 0, 0, 0.64));
   z-index: 0;
 }
 
@@ -154,7 +154,7 @@ body {
 
 .highlight:hover {
     -webkit-transform:rotate(8deg);
-    filter: drop-shadow(0px 0px 23px rgba(0, 0, 0, 0.64);
+    filter: drop-shadow(-7px -2px 27px rgba(190, 0, 255, 1));
     z-index: 1;
 }
 
