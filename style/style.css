@@ -95,7 +95,6 @@ body {
   top: 0;
   z-index: 1;
   transition: 2s;
-  animation: hid 1s linear 1 alternate forwards;
   overflow-x: hidden !important;
 
 }
@@ -144,7 +143,7 @@ body {
  .land-layer {
 
    height: 100vh;
-   width: 100%;
+   width: auto;
    max-width: 100vw;
    top: 0;
    left: -40%;
