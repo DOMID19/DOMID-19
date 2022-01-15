@@ -159,12 +159,12 @@ body {
  }
 
  .land-layer-mob {
-   display: visible !important;
+   display: block !important;
    height: 100vh;
    width: unset;
    position: absolute;
    top: 0;
-   left: -10%;
+   left: 0;
    z-index: 1;
    transition: 1.5s;
    animation: hid 1s linear 1 alternate forwards;
