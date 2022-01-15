@@ -145,9 +145,8 @@ body {
    height: 100vh;
    width: auto;
    top: 0;
-   left: -450%;
+   left: -50%;
    z-index: 1;
-   overflow-x: hidden !important;
  }
 
 }
