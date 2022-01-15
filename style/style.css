@@ -142,8 +142,8 @@ body {
 }
  .land {padding-top:200px;}
  .land-layer {
-   height: 100vh;
-   width: unset;
+   height: unset;
+   width: 100vw;
    top: 0;
    left: -50%
    z-index: 1;
