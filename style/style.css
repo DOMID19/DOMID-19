@@ -153,8 +153,9 @@ body {
     height: auto;
 }
  .land {padding-top:200px; overflow-x: hidden !important;}
+
  .land-layer {
-   display: hidden !important;
+   display: none !important;
  }
 
  .land-layer-mob {
@@ -167,8 +168,7 @@ body {
    z-index: 1;
    transition: 1.5s;
    animation: hid 1s linear 1 alternate forwards;
-   overflow-x: hidden !important;
- }
+  }
 
 }
 
