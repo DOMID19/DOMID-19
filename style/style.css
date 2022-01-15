@@ -142,12 +142,12 @@ body {
 }
  .land {padding-top:200px;}
  .land-layer {
-   height: unset;
+   height: 100em;
    width: 100vw;
    top: 0;
    left: -50%
    z-index: 1;
-   overflow-x: hidden !important;
+   overflow: hidden !important;
  }
 
 }
