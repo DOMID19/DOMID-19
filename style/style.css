@@ -94,10 +94,13 @@ body {
   position: absolute;
   top: 0;
   z-index: 1;
-  transition: 2s;
+  transition: 1.5s;
+  animation: hid 1s linear 1 alternate forwards;
   overflow-x: hidden !important;
 
 }
+
+.land-layer-mob {display:none}
 
 .land-layer.layer1 {
   animation-delay:  .2s;
@@ -115,9 +118,24 @@ body {
 }
 
 
+.land-layer-mob.layer1 {
+  animation-delay:  .2s;
+
+}
+
+.land-layer-mob.layer2 {
+  animation-delay:  .6s;
+
+}
+
+.land-layer-mob.layer3 {
+  animation-delay:  1s;
+
+}
+
 @keyframes hid {
     0%   { opacity: 100% }
-    100% { opacity: 0%; visibility: hidden}
+    100% { opacity: 0%; visibility: hidden;}
 }
 
 
@@ -141,13 +159,17 @@ body {
 }
  .land {padding-top:200px; overflow-x: hidden !important;}
  .land-layer {
+   display: hidden !important;
+ }
 
+ .land-layer-mob {
    height: 100vh;
-   width: auto;
-   max-width: 100vw;
+   width: 100vw;
+   position: absolute;
    top: 0;
-   left: -40%;
    z-index: 1;
+   transition: 1.5s;
+   animation: hid 1s linear 1 alternate forwards;
    overflow-x: hidden !important;
  }
 
