@@ -93,10 +93,9 @@ body {
   z-index: 1;
   transition: 2s;
   animation: hid 1s linear 1 alternate forwards;
-  overflow: hidden;
+  overflow-x: hidden !important;
 
 }
-
 
 .land-layer.layer1 {
   animation-delay:  .2s;
@@ -114,15 +113,10 @@ body {
 }
 
 
-
-
 @keyframes hid {
     0%   { opacity: 100% }
     100% { opacity: 0%; visibility: hidden}
 }
-
-
-
 
 
 .highlight {
@@ -150,7 +144,7 @@ body {
    top: 0;
    left: -50%
    z-index: 1;
-   overflow: hidden;
+   overflow-x: hidden !important;
  }
 
 }
