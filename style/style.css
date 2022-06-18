@@ -40,7 +40,7 @@ body {
   position: fixed;
   top:0;
   background: #4f13ff;
-  color:#000;
+  color:#fff;
   font-size: 1em;
   margin-top:-5px;
   line-height: .8em;
@@ -180,7 +180,7 @@ body {
 
 .highlight:hover {
     -webkit-transform:rotate(8deg);
-    filter: drop-shadow(-7px -2px 27px rgba(153, 255, 10, 1));
+    filter: drop-shadow(-7px -2px 27px rgba(255, 129, 196, 0.74));
     z-index: 1;
 }
 
@@ -382,14 +382,14 @@ width:94vw;
 }
 
 @keyframes marquee3 {
-    0%   { text-indent: -48em }
-    100% { text-indent: 26em }
+    0%   { text-indent: -60em }
+    100% { text-indent: 36em }
 }
 
 
 @keyframes marquee4 {
     0%   { text-indent: 0em }
-    100% { text-indent: -10em }
+    100% { text-indent: -20em }
 }
 
 .badge {
