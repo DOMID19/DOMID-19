@@ -3,7 +3,7 @@
     font-family: 'GlyphWorld-Forest';
     font-weight: normal;
     font-style: normal;
-    src: url('https://files.cargocollective.com/c786615/adversal.woff') format('woff');
+    src: url('https://files.cargocollective.com/c1091761/GlyphWorld-Forest.woff') format('woff');
 }
 
 
@@ -180,7 +180,7 @@ body {
 
 .highlight:hover {
     -webkit-transform:rotate(8deg);
-    filter: drop-shadow(-7px -2px 27px white);
+    filter: drop-shadow(-7px -2px 27px rgba(153, 255, 10, 1));
     z-index: 1;
 }
 
