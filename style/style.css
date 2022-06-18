@@ -39,7 +39,7 @@ body {
   width: 100vw;
   position: fixed;
   top:0;
-  background: #FF9913;
+  background: #4f13ff;
   color:#000;
   font-size: 1em;
   margin-top:-5px;
@@ -65,7 +65,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: .4em .8em 2em;
- background: linear-gradient(#777777,#777777,rgba(255,255,255,0));
+ background: linear-gradient(#888,rgba(255,255,255,0));
 }
 
 .btn {
@@ -348,7 +348,7 @@ width:94vw;
   display: flex;
   justify-content: space-between;
   padding: .8em .6em;
- background: linear-gradient(rgba(255,255,255,0),#777777,#777777);
+ background: linear-gradient(rgba(255,255,255,0),#888,#888);
  z-index: 100;
 }
 
