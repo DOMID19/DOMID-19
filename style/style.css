@@ -39,7 +39,7 @@ body {
   width: 100vw;
   position: fixed;
   top:0;
-  background: #000;
+  background: #FF9913;
   color:#fff;
   font-size: 1em;
   margin-top:-5px;
@@ -194,13 +194,13 @@ body {
 }
 
 .about--marquee{
-background: #4e5cff;
+background: #bbbbbb;
   margin: 0;
   padding: 1em 0;
 }
 
 .collection--marquee{
-background: #4e5cff;
+background: #bbbbbb;
   margin: 0;
   padding: 1em 0;
 }
