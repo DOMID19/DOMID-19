@@ -40,7 +40,7 @@ body {
   position: fixed;
   top:0;
   background: #FF9913;
-  color:#fff;
+  color:#000;
   font-size: 1em;
   margin-top:-5px;
   line-height: .8em;
@@ -257,6 +257,7 @@ background: #bbbbbb;
   letter-spacing: -3px;
   font-size: 6em;
   line-height: 1em;
+  width: 30%;
   margin: 0;
 }
 
@@ -424,6 +425,7 @@ width:94vw;
   .about-2 {
 text-align: center;
 margin-top:30px;
+width:100% !important;
 }
 .indent.about-2{
       text-indent: unset !important;
