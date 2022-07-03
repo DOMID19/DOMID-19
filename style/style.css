@@ -28,7 +28,7 @@ html {  overflow-x: hidden !important;
 
 
 body {
-  background-color: #888888;
+  background-color: #c2c2c2;
   padding: 0;
   margin: 0;
   font-size: 8px;
@@ -39,8 +39,8 @@ body {
   width: 100vw;
   position: fixed;
   top:0;
-  background: #4f13ff;
-  color:#fff;
+  background: #b3ff00;
+  color:#000;
   font-size: 1em;
   margin-top:-5px;
   line-height: .8em;
@@ -65,7 +65,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: .4em .8em 2em;
- background: linear-gradient(#888,rgba(255,255,255,0));
+ background: linear-gradient(#c2c2c2,rgba(255,255,255,0));
 }
 
 .btn {
@@ -194,13 +194,13 @@ body {
 }
 
 .about--marquee{
-background: #bbbbbb;
+background: #bd32ff;
   margin: 0;
   padding: 1em 0;
 }
 
 .collection--marquee{
-background: #bbbbbb;
+background: #0081ff;
   margin: 0;
   padding: 1em 0;
 }
@@ -348,7 +348,7 @@ width:94vw;
   display: flex;
   justify-content: space-between;
   padding: .8em .6em;
- background: linear-gradient(rgba(255,255,255,0),#888,#888);
+ background: linear-gradient(rgba(255,255,255,0),#c2c2c2,#c2c2c2);
  z-index: 100;
 }
 
